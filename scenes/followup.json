@@ -1,0 +1,19 @@
+{
+  "slug": "followup-short-05",
+  "title": "AI drafts your follow-up emails",
+  "hook": "Every lead. Personalized. Seconds.",
+  "narration": [
+    "Most sales are lost to follow-up emails that never got sent.",
+    "Here is a lead list. Names, last contact, and messy notes.",
+    "One command drafts a personal email for every single lead.",
+    "Look at this. It referenced the exact concern from the notes.",
+    "You read them, you press send. The writing part is done.",
+    "Script is free below."
+  ],
+  "demo_dir": "/codehub/apps/automation-kit/apps/lead-followup",
+  "demo_commands": [
+    "cat leads.csv",
+    "./followup.sh leads.csv out",
+    "cat out/marco-bellini.txt"
+  ]
+}

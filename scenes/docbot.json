@@ -1,0 +1,19 @@
+{
+  "slug": "docbot-short-02",
+  "title": "AI that answers from YOUR docs",
+  "hook": "No hallucinations. Citations included.",
+  "narration": [
+    "I gave an AI my company's policy documents. Now watch it think.",
+    "A customer cancels catering two days before the event. What refund?",
+    "That answer needed reasoning across two policy rules. It got it right.",
+    "And it cites which document the answer came from.",
+    "Ask it something that is not in the docs, and it refuses to guess.",
+    "Forty lines of code. Scripts linked below."
+  ],
+  "demo_dir": "/codehub/apps/automation-kit/apps/docbot",
+  "demo_commands": [
+    "ls docs/",
+    "./askdocs.sh \"Customer cancels catering 2 days before the event - what refund?\"",
+    "./askdocs.sh \"Do we deliver 15 km away?\""
+  ]
+}

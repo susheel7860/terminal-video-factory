@@ -1,0 +1,19 @@
+{
+  "slug": "invoice-short-01",
+  "title": "AI does invoice data entry",
+  "hook": "10 min per invoice → 4 seconds",
+  "narration": [
+    "This business typed invoice data by hand. Ten minutes per invoice.",
+    "Three suppliers, three completely different layouts. One is even in euros.",
+    "Watch. One command reads every invoice like a human would.",
+    "Vendor, invoice number, date, amount, currency. A clean spreadsheet in seconds.",
+    "It even understood the European date format from context.",
+    "Forty lines of code. All five scripts are linked below."
+  ],
+  "demo_dir": "/codehub/apps/automation-kit/apps/invoice2csv",
+  "demo_commands": [
+    "ls invoices/",
+    "head -6 invoices/invoice_002.txt",
+    "./invoice2csv.sh invoices output.csv"
+  ]
+}

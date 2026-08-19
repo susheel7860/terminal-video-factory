@@ -1,0 +1,19 @@
+{
+  "slug": "report-short-03",
+  "title": "Your weekly report writes itself",
+  "hook": "Raw CSV → business advice",
+  "narration": [
+    "This restaurant owner stopped writing Monday reports. Here is why.",
+    "Raw sales data. Just numbers. Nobody has time to read this.",
+    "One command. The math is computed locally, so the numbers are exact.",
+    "The AI only writes the analysis. Look. Tuesday is dead. The salmon is not selling.",
+    "It ends with three actions to try this week, tied to the data.",
+    "The script is linked below, free."
+  ],
+  "demo_dir": "/codehub/apps/automation-kit/apps/report-gen",
+  "demo_commands": [
+    "head -5 sales.csv",
+    "./weeklyreport.sh sales.csv report.md",
+    "head -20 report.md"
+  ]
+}

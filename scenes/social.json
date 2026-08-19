@@ -1,0 +1,19 @@
+{
+  "slug": "social-short-04",
+  "title": "1 blog post → 10 social posts",
+  "hook": "The content pipeline agencies sell",
+  "narration": [
+    "Agencies charge four hundred dollars a month for what this script does.",
+    "One blog post goes in.",
+    "One command runs.",
+    "Out comes an Instagram caption, a LinkedIn post, a tweet thread, and a story poll.",
+    "Same facts, different voice per platform. Nothing invented.",
+    "Free script below. Follow for one automation every day."
+  ],
+  "demo_dir": "/codehub/apps/automation-kit/apps/social-repurpose",
+  "demo_commands": [
+    "head -4 blog-post.md",
+    "./social.sh blog-post.md pack.md",
+    "head -14 pack.md"
+  ]
+}
